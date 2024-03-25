@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADEFD1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BestCustomerFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00203f" height="68.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <TableView fx:id="bestCustomerTable" layoutX="44.0" layoutY="86.0" prefHeight="234.0" prefWidth="518.0">
+        <columns>
+          <TableColumn fx:id="colCustomerId" prefWidth="151.20001220703125" text="Customer ID" />
+          <TableColumn fx:id="colName" prefWidth="196.0" text="Customer Name" />
+            <TableColumn fx:id="colTotal" prefWidth="170.4000244140625" text="Total" />
+        </columns>
+      </TableView>
+      <Button layoutX="475.0" layoutY="347.0" mnemonicParsing="false" onAction="#btnExitOnAction" prefHeight="26.0" prefWidth="88.0" style="-fx-border-color: #00203F; -fx-background-color: #ADEFD1;" text="Exit" textFill="#00203f" />
+      <Button layoutX="374.0" layoutY="347.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="26.0" prefWidth="88.0" style="-fx-background-color: #ADEFD1; -fx-border-color: #00203F;" text="Back" />
+      <Text fill="#adefd1" layoutX="197.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best Customer">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

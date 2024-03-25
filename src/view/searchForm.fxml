@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADEFD1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00203f" height="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Button layoutX="338.0" layoutY="126.0" mnemonicParsing="false" onAction="#btnSearchBestCustomerOnAction" prefHeight="42.0" prefWidth="206.0" style="-fx-border-color: #00203F; -fx-background-color: #ADEFD1;" text="Search Best Customer" />
+      <Button layoutX="338.0" layoutY="190.0" mnemonicParsing="false" onAction="#btnSearchOrderOnAction" prefHeight="42.0" prefWidth="206.0" style="-fx-border-color: #00203F; -fx-background-color: #ADEFD1;" text="Search Orders" />
+      <Button layoutX="338.0" layoutY="254.0" mnemonicParsing="false" onAction="#btnSearchCustomerOnAction" prefHeight="42.0" prefWidth="206.0" style="-fx-border-color: #00203F; -fx-background-color: #ADEFD1;" text="Search Customers" />
+      <Button layoutX="454.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnExitOnAction" prefHeight="34.0" prefWidth="89.0" style="-fx-border-color: #00203F; -fx-background-color: #ADEFD1;" text="Exit" />
+      <Button layoutX="338.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="90.0" style="-fx-border-color: #00203F; -fx-background-color: #ADEFD1;" text="Back" />
+      <Text fill="#adefd1" layoutX="252.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="180.0" fitWidth="195.0" layoutX="66.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/img.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADEFD1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewOrderFormController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00203f" height="71.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Button layoutX="348.0" layoutY="126.0" mnemonicParsing="false" onAction="#btnProcessingOrderOnAction" prefHeight="42.0" prefWidth="232.0" style="-fx-background-color: #ADEFD1; -fx-border-color: #00203F;" text="Processing Order" />
+      <Button layoutX="348.0" layoutY="190.0" mnemonicParsing="false" onAction="#btnDeliveredOrderOnAction" prefHeight="42.0" prefWidth="232.0" style="-fx-background-color: #ADEFD1; -fx-border-color: #00203F;" text="Delivered Order" />
+      <Button layoutX="348.0" layoutY="254.0" mnemonicParsing="false" onAction="#btnCancelledOrderOnAction" prefHeight="42.0" prefWidth="232.0" style="-fx-background-color: #ADEFD1; -fx-border-color: #00203F;" text="Cancelled Order" />
+      <Button layoutX="473.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnExitOnAction" prefHeight="34.0" prefWidth="106.0" style="-fx-background-color: #ADEFD1; -fx-border-color: #00203F;" text="Exit" />
+      <Button layoutX="348.0" layoutY="339.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="34.0" prefWidth="106.0" style="-fx-background-color: #ADEFD1; -fx-border-color: #00203F;" text="Back" />
+      <Text fill="#adefd1" layoutX="211.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View Orders">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="178.0" fitWidth="217.0" layoutX="91.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/img.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
